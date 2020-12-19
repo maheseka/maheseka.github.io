@@ -2590,6 +2590,41 @@ ul.mega-menu {
 /* 06. Shortcodes                                */
 /*===============================================*/
 
+/*Music*/
+.gla_music_icon {
+	position: fixed;
+	color: #eee;
+	bottom: 45px;
+	right: 50px;
+	z-index: 2;
+	font-size: 24px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+	.gla_second_step .gla_music_icon {
+		right: 100px;
+	}
+.gla_music_icon_cont {
+	position: fixed;
+	width: 400px;
+	height: 300px;
+	z-index: 2;
+	bottom: 40px;
+	right: 90px;
+	display: none;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+	.gla_second_step .gla_music_icon_cont {
+		right: 140px;
+	}
+.gla_music_icon_cont iframe {
+	width: 100%;
+	height: 100%;
+}
 
 /*Partners*/
 .gla_partner_box img {
@@ -2603,6 +2638,67 @@ ul.mega-menu {
 }
 	.gla_partner_box {
 		padding: 0 20px;
+	}
+
+
+/*Gold Numbers*/
+.countdown-amount span {
+	background-image: url(../images/gold_numbers_wh.gif);
+	display: inline-block;
+	height: 150px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.gla_wht_txt .countdown-amount span {
+	background-image: url(../images/gold_numbers.gif);
+}
+.gla_image_day.gla_image0,
+.gla_image_hours.gla_image0,
+.gla_image_minutes.gla_image0,
+.gla_image_seconds.gla_image0 {
+	display: none;
+}
+	.gla_countdown_gold .countdown-section {
+		min-width: 185px;
+	}
+	.countdown-amount .gla_image0 {
+		width: 82px;
+	}
+	.countdown-amount .gla_image1 {
+		width: 46px;
+		background-position: -130px 0;
+	}
+	.countdown-amount .gla_image2 {
+		width: 72px;
+		background-position: -209px 0;
+	}
+	.countdown-amount .gla_image3 {
+		width: 80px;
+		background-position: -312px 0;
+	}
+	.countdown-amount .gla_image4 {
+		width: 74px;
+		background-position: -426px 0;
+	}
+	.countdown-amount .gla_image5 {
+		width: 76px;
+		background-position: -531px 0;
+	}
+	.countdown-amount .gla_image6 {
+		width: 75px;
+		background-position: -650px 0;
+	}
+	.countdown-amount .gla_image7 {
+		width: 75px;
+		background-position: -768px 0;
+	}
+	.countdown-amount .gla_image8 {
+		width: 85px;
+		background-position: -867px 0;
+	}
+	.countdown-amount .gla_image9 {
+		width: 75px;
+		background-position: -985px 0;
 	}
 
 /*Flower Slider*/
@@ -2649,6 +2745,9 @@ ul.mega-menu {
 }
 
 
+
+
+
 .tablet.portrait .gla_slider_flower_c1 {
 	left: -100px;
 	top: -100px;		
@@ -2671,6 +2770,40 @@ ul.mega-menu {
 }
 .tablet.portrait .gla_slider_flower_c6 {
 	bottom: -100px;		
+}
+
+
+
+
+.gla_slider_flower_ii.gla_slider_flower_c1 {
+	background-image: url(../images/flowers_slider/fl2_c1.png);
+	width: 400px;
+	height: 454px;
+}
+.gla_slider_flower_ii.gla_slider_flower_c2 {
+	background-image: url(../images/flowers_slider/fl2_c2.png);
+	width: 400px;
+	height: 496px;
+}
+.gla_slider_flower_ii.gla_slider_flower_c3 {
+	background-image: url(../images/flowers_slider/fl2_c3.png);
+	width: 400px;
+	height: 365px;
+}
+.gla_slider_flower_ii.gla_slider_flower_c4 {
+	background-image: url(../images/flowers_slider/fl2_c4.png);
+	width: 400px;
+	height: 441px;
+}
+.gla_slider_flower_ii.gla_slider_flower_c5 {
+	background-image: url(../images/flowers_slider/fl2_c5.png);
+	width: 500px;
+	height: 171px;
+}
+.gla_slider_flower_ii.gla_slider_flower_c6 {
+	background-image: url(../images/flowers_slider/fl2_c6.png);
+	width: 500px;
+	height: 199px;
 }
 
 
